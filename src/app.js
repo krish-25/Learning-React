@@ -1,10 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
-
-import './utils.js'
+import 'normalize.css/normalize.css'
+import './styles/styles.scss';
 console.log('app.js is running')
 
-var template = <p>does it change</p>;
+var template = <h1>does it change</h1>;
 var appRoot = document.getElementById('app');
 
 ReactDOM.render(template, appRoot);
